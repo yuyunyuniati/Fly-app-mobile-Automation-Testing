@@ -1,0 +1,44 @@
+Test Case :
+
+1. Positive case - login
+2. Negative case - login (wrong username & password)
+3. Positive case - book
+4. Positive case - search
+5. Negative case - search (wrong booking id)
+
+Step Positive case - login, book, search :
+    1. Open application
+    2. Click Sign In Button
+    3. Input Username (valid username)
+    4. Input password (valid password)
+    5. Click Menu Book
+    6. Input form Book
+    7. Click Dropdown From City
+    8. Click Dropdown To City
+    9. Click Dropdown Class
+    10. Input Start Date & End Date
+    11. Click RadioButton
+    12. Click Button Book
+    13. Click Menu Search
+    14. Input Booking ID : DA935 (valid id)
+    15. Click Button Search
+    16. Close applications
+
+
+Step Negative case - login :
+    1. Open application
+    2. Click Sign In Button
+    3. Input Username (Invalid username)
+    4. Input password (Invalid password)
+
+
+Step Negative case - search :
+    1. Open application
+    2. Click Sign In Button
+    3. Input Username (valid username)
+    4. Input password (valid password)
+    5. Click Button Sign In
+    6. Click Menu Search
+    7. Input Booking ID : invalid (invalid id)
+    8. Click Button Search
+    9. Close applications

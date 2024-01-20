@@ -1,0 +1,2 @@
+login-button: '//*[@resource-id="com.example.myapplication:id/login"]'
+
